@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "xo"
   },
   "author": "Max Isom <codetheweb@icloud.com> (https://maxisom.me)",
   "license": "MIT",
@@ -15,6 +15,11 @@
     "moment": "^2.22.2",
     "mtu-dining": "^1.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": true
+  },
   "description": ""
 }
