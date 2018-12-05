@@ -90,7 +90,7 @@ app.intent('Get Menu', async conv => {
     response += arrToResponse({meal: 'all', menu: thisMenu});
   }
 
-  return conv.ask(response);
+  return conv.add(response);
 });
 
 function arrToResponse(data) {
