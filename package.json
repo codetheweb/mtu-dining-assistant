@@ -1,0 +1,20 @@
+{
+  "name": "mtu-dining-google-assistant",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Max Isom <codetheweb@icloud.com> (https://maxisom.me)",
+  "license": "MIT",
+  "dependencies": {
+    "actions-on-google": "^2.5.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "moment": "^2.22.2",
+    "mtu-dining": "^1.0.2"
+  },
+  "devDependencies": {},
+  "description": ""
+}
