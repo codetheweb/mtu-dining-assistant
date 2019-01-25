@@ -13,7 +13,7 @@
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
     "moment": "^2.22.2",
-    "mtu-dining": "^1.0.2"
+    "mtu-dining": "^1.1.0"
   },
   "devDependencies": {
     "xo": "^0.23.0"
