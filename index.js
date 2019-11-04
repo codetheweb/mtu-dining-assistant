@@ -57,7 +57,7 @@ app.intent('Get Menu', async conv => {
       break;
   }
 
-  const queryDate = {month: date.month() + 1, day: date.date()};
+  const queryDate = {month: date.month() + 1, day: date.date() + 1};
 
   // Check if weekend
   if ((date.day() === 0 || date.day() === 6) && hall === Dining.MCNAIR) {
